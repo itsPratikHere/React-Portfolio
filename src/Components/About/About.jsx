@@ -5,7 +5,7 @@ import profile_img from '../../assets/profile_img.svg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <div className="about-title">
             <h1>About Me</h1>
             <img src={theme_pattern} alt=""/>
@@ -20,9 +20,10 @@ const About = () => {
                     <p>Worked on projects form basic to intermediate which helped to understand this field with its insight of its basic.</p>
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>MACHINE LEARNING</p><hr style={{width:"70%"}} /></div>
-                    <div className="about-skill"><p>ARTIFICIAL INTELLIGENCE</p><hr style={{width:"50%"}} /></div>
-                    <div className="about-skill"><p>PYTHON & ML LIBRARIES</p><hr style={{width:"50%"}} /></div>
+                    <div className="about-skill"><p>Artificial Intelligence</p><hr style={{width:"40%"}} /></div>
+                    <div className="about-skill"><p>Machine Learning</p><hr style={{width:"50%"}} /></div>
+                    <div className="about-skill"><p>Python</p><hr style={{width:"70%"}} /></div>
+                    <div className="about-skill"><p>MySQL </p><hr style={{width:"50%"}} /></div>
                 </div>
             </div>
         </div>
