@@ -5,9 +5,7 @@
     padding : 30px 50px;
     gap:30px;   
 }
-.navbar > * {
-    flex-shrink: 0;
-}
+
 
 .nav-menu{
     display : flex;
@@ -21,14 +19,13 @@
     padding:0;
 }
 .nav-connect{
-    padding: 20px 40px;
+    padding: 12px 30px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 100%);
     cursor: pointer;
     transition: 0.5s;
     white-space: nowrap;
-    flex-shrink: 0;
-    justify-content: flex-end;
+    align-self: center;
 }
 .nav-connect:hover{
     transform: scale(1.05);
