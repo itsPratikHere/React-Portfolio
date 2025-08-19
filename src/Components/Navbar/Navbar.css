@@ -2,10 +2,13 @@
     display : flex;
     align-items: center;
     justify-content : space-between;
-    margin : 30px 180px;
-    
-    
+    padding : 30px 50px;
+    gap:30px;   
 }
+.navbar > * {
+    flex-shrink: 0;
+}
+
 .nav-menu{
     display : flex;
     align-items : center;
