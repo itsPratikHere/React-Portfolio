@@ -25,6 +25,7 @@
     transition: 0.5s;
     white-space: nowrap;
     flex-shrink: 0;
+    justify-content: flex-end;
 }
 .nav-connect:hover{
     transform: scale(1.05);
