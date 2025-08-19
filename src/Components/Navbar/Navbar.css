@@ -9,9 +9,13 @@
 .nav-menu{
     display : flex;
     align-items : center;
+    justify-content: center;
+    flex: 1;
     list-style: none;
     gap: 60px;
     font-size: 20px;
+    margin:0;
+    padding:0;
 }
 .nav-connect{
     padding: 20px 40px;
