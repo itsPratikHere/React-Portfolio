@@ -65,6 +65,14 @@
     background: linear-gradient(264deg , #DF8908 -5.09%,#b415ff 106.28% );
     
 }
+.about-left{
+        display: none;
+        width: 160px;
+        height:160px;
+        border-radius: 50%;
+        object-fit: 4px solid white;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
 @media (max-width:768px){
     .about{
         gap: 80px;
@@ -84,8 +92,15 @@
         flex-direction: column;
     }
     .about-left{
-        display: none;
-    }
+        display: block;
+        width: 260px;
+        height:260px;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        object-fit: 4px solid white;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        margin: 0 auto;
+    }   
     .about-para{
         font-size: 18px;
         line-height:32px;
